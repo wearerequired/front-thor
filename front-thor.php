@@ -29,7 +29,7 @@
  * @package FrontThor
  */
 
-namespace FrontThor;
+namespace Required\FrontThor;
 
 /**
  * Registers option for the redirect URL.
