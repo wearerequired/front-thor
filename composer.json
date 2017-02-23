@@ -1,7 +1,6 @@
 {
   "name": "wearerequired/front-thor",
   "description": "Redirect your front end to a custom destination.",
-  "version": "1.0.0",
   "type": "wordpress-plugin",
   "license": "GPL-2.0+",
   "authors": [
