@@ -3,7 +3,7 @@
 * Tags: front end, redirect
 * Requires at least: 4.7
 * Tested up to: 4.7
-* Stable tag: 1.0.0
+* Stable tag: 1.0.1
 * License: GPLv2 or later
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,6 +26,9 @@ Front Thor is a plugin that allows you to define a URL to redirect any access to
 Easy! You can report bugs, with reproduction steps, or post patches on [GitHub](https://github.com/wearerequired/front-thor).
 
 ## Changelog ##
+
+### 1.0.1 ###
+* Use Required namespace ([#1](https://github.com/wearerequired/front-thor/issues/1))
 
 ### 1.0.0 ###
 * Initial Release
