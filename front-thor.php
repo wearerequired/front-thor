@@ -50,7 +50,7 @@ function init_setting() {
 				],
 			],
 			'type'              => 'string',
-			'description'       => __( 'Redirect URL for front end.' ),
+			'description'       => __( 'Redirect URL for front end.', 'front-thor' ),
 		]
 	);
 }
@@ -64,7 +64,7 @@ add_action( 'init', __NAMESPACE__ . '\init_setting' );
 function init_settings_field() {
 	add_settings_field(
 		'frontthor_url',
-		__( 'Redirect URL for front end' ),
+		__( 'Redirect URL for front end', 'front-thor' ),
 		function() {
 			echo '<input name="frontthor_url" type="text" id="frontthor_url"
 				value="' . esc_attr( get_option( 'frontthor_url' ) ) . '" class="regular-text code" />';
