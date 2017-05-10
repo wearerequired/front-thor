@@ -3,12 +3,12 @@
  * Plugin Name: Front Thor
  * Plugin URI:  https://github.com/wearerequired/frontthor/
  * Description: Redirect your front end to a custom destination.
- * Version:     1.0.0
+ * Version:     1.0.1
  * Author:      required
  * Author URI:  https://required.com
  * License:     GPL-2.0+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
- * Text Domain: frontthor
+ * Text Domain: front-thor
  * Domain Path: /languages
  *
  * Copyright (c) 2017 required (email: info@required.ch)
