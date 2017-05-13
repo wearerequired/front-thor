@@ -3,7 +3,7 @@
  * Plugin Name: Front Thor
  * Plugin URI:  https://github.com/wearerequired/front-thor/
  * Description: Redirect your front end to a custom destination.
- * Version:     1.0.1
+ * Version:     1.0.2
  * Author:      required
  * Author URI:  https://required.com
  * License:     GPL-2.0+
