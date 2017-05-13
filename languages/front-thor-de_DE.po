@@ -1,0 +1,44 @@
+# Copyright (C) 2017 Front Thor
+# This file is distributed under the same license as the Front Thor package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Front Thor 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/front-thor\n"
+"POT-Creation-Date: 2017-05-13 16:47+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-05-13 16:48+0200\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0\n"
+"Last-Translator: Pascal Birchler <swissspidy@chat.wordpress.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de_DE\n"
+
+#: front-thor.php:53
+msgid "Redirect URL for front end."
+msgstr "Redirect URL für das Frontend."
+
+#: front-thor.php:67
+msgid "Redirect URL for front end"
+msgstr "Redirect URL für das Frontend"
+
+#. Plugin Name of the plugin/theme
+msgid "Front Thor"
+msgstr "Front Thor"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/wearerequired/front-thor/"
+msgstr "https://github.com/wearerequired/front-thor/"
+
+#. Description of the plugin/theme
+msgid "Redirect your front end to a custom destination."
+msgstr "Leite Frontend-Zugriffe weiter zu einer beliebigen Destination."
+
+#. Author of the plugin/theme
+msgid "required"
+msgstr "required"
+
+#. Author URI of the plugin/theme
+msgid "https://required.com"
+msgstr "https://required.com"
