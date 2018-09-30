@@ -3,13 +3,12 @@
  * Plugin Name: Front Thor
  * Plugin URI:  https://github.com/wearerequired/front-thor/
  * Description: Redirect your front end to a custom destination.
- * Version:     1.0.2
+ * Version:     1.0.3
  * Author:      required
  * Author URI:  https://required.com
  * License:     GPL-2.0+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain: front-thor
- * Domain Path: /languages
  *
  * Copyright (c) 2017 required (email: info@required.ch)
  *
@@ -31,6 +30,21 @@
  */
 
 namespace Required\FrontThor;
+
+/**
+ * Download language packs from Traduttore.
+ *
+ * @since 1.0.3
+ */
+function init_traduttore() {
+	Required\Traduttore_Registry\add_project(
+		'plugin',
+		'front-thor',
+		'https://translate.required.com/api/translations/required/front-thor/'
+	);
+}
+
+add_action( 'init', __NAMESPACE__ . '\init_traduttore' );
 
 /**
  * Registers option for the redirect URL.
