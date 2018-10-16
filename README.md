@@ -27,6 +27,9 @@ Easy! You can report bugs, with reproduction steps, or post patches on [GitHub](
 
 ## Changelog ##
 
+### 1.0.3 ###
+* Add Traduttore support for translations
+
 ### 1.0.2 ###
 * I18N improvements and de_DE translations
 
