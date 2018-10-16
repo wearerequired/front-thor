@@ -11,7 +11,7 @@ Redirect your front end to a custom destination.
 
 ## Description ##
 
-Front Thor is a plugin that allows you to define a URL to redirect any access to the front end of your site to any destination you want.
+Front Thor is a plugin that allows you to define a URL to redirect any access to the front end of your site to any destination you want. This is ideal for a site that does need to be accessed on the frontend but still has a functioning backend and REST API.
  
 ## Installation ##
 
