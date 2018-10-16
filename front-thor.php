@@ -37,13 +37,12 @@ namespace Required\FrontThor;
  * @since 1.0.3
  */
 function init_traduttore() {
-	Required\Traduttore_Registry\add_project(
+	\Required\Traduttore_Registry\add_project(
 		'plugin',
 		'front-thor',
 		'https://translate.required.com/api/translations/required/front-thor/'
 	);
 }
-
 add_action( 'init', __NAMESPACE__ . '\init_traduttore' );
 
 /**
